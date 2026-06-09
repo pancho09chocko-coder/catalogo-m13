@@ -1,0 +1,31 @@
+body{
+  background:#111;
+  color:white;
+  font-family:Arial;
+  margin:0;
+  padding:20px;
+}
+
+header{
+  text-align:center;
+  padding:30px;
+}
+
+h1{
+  color:#00ff88;
+}
+
+section{
+  background:#1b1b1b;
+  padding:20px;
+  margin-top:20px;
+  border-radius:10px;
+}
+
+ul{
+  padding-left:20px;
+}
+
+li{
+  margin-bottom:10px;
+}
