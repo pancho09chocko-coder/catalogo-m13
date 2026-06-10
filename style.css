@@ -63,3 +63,21 @@ margin-bottom:20px;
 border-radius:20px;
 box-shadow:0 0 10px rgba(0,0,0,0.3);
 }
+
+.card{
+background:#102a5c;
+padding:20px;
+border-radius:20px;
+margin-top:15px;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.02);
+}
+
+.card h3{
+color:#35bdfd;
+margin-top:0;
+}
