@@ -81,3 +81,52 @@ transform:scale(1.02);
 color:#35bdfd;
 margin-top:0;
 }
+footer{
+background:#0b1d3a;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+footer h3{
+margin-bottom:10px;
+}
+
+.redes{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+margin:20px 0;
+}
+
+.redes a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-weight:bold;
+}
+
+.redes a:hover{
+opacity:0.8;
+}
+
+.copyright{
+font-size:14px;
+opacity:0.8;
+}
+.redes img{
+width:40px;
+height:40px;
+margin:0 10px;
+vertical-align:middle;
+}
+.redes{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+margin:20px 0;
+}
+
