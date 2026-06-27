@@ -1,153 +1,185 @@
+/* ==========================
+   SOPORTE DIGITAL M13 v2.0
+   ========================== */
+
 body{
-background:#071a3d;
-color:white;
-font-family:Arial,sans-serif;
-margin:0;
-padding:20px;
+    margin:0;
+    padding:20px;
+    font-family:Arial,sans-serif;
+    background:#071a3d;
+    color:#ffffff;
 }
 
-header{
-  text-align:center;
-  padding:30px;
-}
-
-h1{
-  color:#35bdfd;
-}
-
-section{
-  background:#1b1b1b;
-  padding:20px;
-  margin-top:20px;
-  border-radius:10px;
-}
-
-ul{
-  padding-left:20px;
-}
-
-li{
-  margin-bottom:10px;
-}
-
-button{
-background:#1da1f2;
-color:white;
-border:none;
-padding:12px 20px;
-border-radius:15px;
-font-size:16px;
-font-weight:bold;
-margin-top:10px;
-cursor:pointer;
-}
-
-button:hover{
-  opacity:0.8;
-}
+/* Logo */
 
 .logo{
-text-align:center;
-margin-top:20px;
+    text-align:center;
+    margin:20px 0;
 }
 
 .logo img{
-width:220px;
-border-radius:20px;
+    width:220px;
+    max-width:90%;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
 }
+
+/* Encabezado */
+
+header{
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    margin:0;
+    color:#35bdfd;
+    font-size:2rem;
+}
+
+header p{
+    color:#d8e7ff;
+    margin-top:10px;
+    line-height:1.6;
+}
+
+/* Secciones */
 
 section{
-background:#0c2555;
-padding:20px;
-margin-bottom:20px;
-border-radius:20px;
-box-shadow:0 0 10px rgba(0,0,0,0.3);
+    background:#0c2555;
+    margin:25px 0;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,.30);
 }
 
+section h2{
+    text-align:center;
+    color:#35bdfd;
+    margin-top:0;
+}
+
+/* Tarjetas */
+
 .card{
-background:#102a5c;
-padding:20px;
-border-radius:20px;
-margin-top:15px;
-box-shadow:0 0 10px rgba(0,0,0,0.3);
-transition:0.3s;
+    background:#102a5c;
+    padding:20px;
+    margin-top:18px;
+    border-radius:18px;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
 }
 
 .card:hover{
-transform:scale(1.02);
+    transform:translateY(-4px);
 }
 
 .card h3{
-color:#35bdfd;
-margin-top:0;
+    margin-top:0;
+    color:#35bdfd;
 }
+
+.card p{
+    line-height:1.6;
+}
+
+/* Botones */
+
+button,
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 22px;
+    border:none;
+    border-radius:12px;
+    background:#35bdfd;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover,
+.btn:hover{
+    background:#2196d3;
+}
+
+/* Footer */
+
 footer{
-background:#0b1d3a;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:40px;
+    background:#0b1d3a;
+    text-align:center;
+    padding:30px 20px;
+    border-radius:20px;
+    margin-top:40px;
 }
 
 footer h3{
-margin-bottom:10px;
+    margin-top:0;
 }
 
 .redes{
-display:flex;
-justify-content:center;
-align-items:center;
-gap:20px;
-margin:20px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin:20px 0;
 }
 
-.redes a{
-color:white;
-text-decoration:none;
-margin:0 10px;
-font-weight:bold;
+.redes img{
+    width:40px;
+    height:40px;
+    transition:.3s;
 }
 
-.redes a:hover{
-opacity:0.8;
+.redes img:hover{
+    transform:scale(1.1);
 }
 
 .copyright{
-font-size:14px;
-opacity:0.8;
-}
-.redes img{
-width:40px;
-height:40px;
-margin:0 10px;
-vertical-align:middle;
-}
-.redes{
-display:flex;
-justify-content:center;
-align-items:center;
-gap:20px;
-margin:20px 0;
+    opacity:.8;
+    font-size:.9rem;
 }
 
+/* Botón flotante */
+
 .whatsapp-float{
-position:fixed;
-bottom:20px;
-right:20px;
-width:60px;
-height:60px;
-background:#25d366;
-color:white;
-font-size:30px;
-text-decoration:none;
-border-radius:50%;
-display:flex;
-justify-content:center;
-align-items:center;
-box-shadow:0 0 10px rgba(0,0,0,0.4);
-z-index:1000;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#25D366;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:30px;
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+    transition:.3s;
 }
 
 .whatsapp-float:hover{
-transform:scale(1.1);
+    transform:scale(1.08);
+}
+
+/* Responsive */
+
+@media(max-width:600px){
+
+    body{
+        padding:15px;
+    }
+
+    .logo img{
+        width:180px;
+    }
+
+    section{
+        padding:18px;
+    }
+
 }
