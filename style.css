@@ -128,13 +128,17 @@ footer h3{
 }
 
 .redes img{
-    width:40px;
-    height:40px;
-    transition:.3s;
+    width:42px;
+    height:42px;
+    padding:10px;
+    background:white;
+    border-radius:50%;
+    box-sizing:border-box;
+    transition:0.3s;
 }
 
 .redes img:hover{
-    transform:scale(1.1);
+    transform:scale(1.15);
 }
 
 .copyright{
